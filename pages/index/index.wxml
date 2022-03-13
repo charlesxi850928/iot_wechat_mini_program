@@ -1,0 +1,21 @@
+<view class="page-section page-section-spacing">
+    <view class="page-section-title">
+        <text>物联网测试</text>
+    </view>
+    <view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item">
+            <text>舵机旋转角度：</text>
+            <slider class="slider" min="0" max="360" show-value="360" bindchange="sliderChangeforServo">
+            </slider>
+        </view>
+        <view class="flex-item">
+            <text>LDE开关：</text>
+            <switch class="switch" bindchange="switchChangeforMotor">
+            </switch>
+        </view>
+        <view class="flex-item">
+            <text>接收到数据：</text>
+            <view class="receiveData">{{dat1}}</view>
+        </view>
+    </view>
+</view>

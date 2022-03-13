@@ -1,0 +1,19 @@
+/**index.wxss**/
+.page-section {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.page-section-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex-item {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.receiveData{
+  font-style: italic;
+}
